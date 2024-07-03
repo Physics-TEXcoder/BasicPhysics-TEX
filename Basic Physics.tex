@@ -1,0 +1,83 @@
+\documentclass[12pt,a4paper]{book} 
+\input{Configs/Configs}
+\bibliographystyle{unsrt}
+\renewcommand{\bibname}{参考文献}
+
+
+\begin{document}
+\renewcommand{\contentsname}{\vspace{0cm} 目录 \vspace{-2cm}}
+
+\begin{titlepage}
+\vspace*{2cm}
+
+\noindent
+\vspace*{0.5cm}
+\titlefont{Basic Physics}
+
+\vspace{1.5cm}
+\epigraph{\fangsong 在物理学的研究中，主要是采用简约主义 (Reductionism) 的做法}%
+{\kaishu ——田光善}
+\null\vfill
+\vspace*{1cm}
+\noindent
+\hfill
+\begin{minipage}{0.7\linewidth}
+    \begin{flushright}
+        \printauthor %CHANGE THE AUTHORS IN FORMAT.TEX%
+    \end{flushright}
+\end{minipage}
+%
+\begin{minipage}{0.02\linewidth}
+    \rule{1pt}{70pt}
+\end{minipage}
+\titlepagedecoration
+\end{titlepage}
+
+
+\tableofcontents
+
+\graphicspath{{高中物理插图/}}
+\fangsong 
+
+\chapter*{前言}
+\input{Chapters/PART I/preface.tex}
+
+\part{Classical Mechanics}
+
+\chapter{第一章~~力、向量与直线运动}
+\input{Chapters/PART I/CM1.tex}
+
+\chapter{第二章~~牛顿运动定律、曲线运动与万有引力定律}
+\input{Chapters/PART I/CM2.tex}
+
+\chapter{第三章~~机械能与动量}
+\input{Chapters/PART I/CM3.tex}
+
+\chapter{第四章~~机械振动和机械波}
+\input{Chapters/PART I/CM4.tex}
+
+\part{Thermodynamics}
+
+\chapter{第五章~~热力学基础}
+\input{Chapters/PART II/T1.tex}
+
+\chapter{第六章~~气体、液体和固体}
+\input{Chapters/PART II/T2.tex}
+
+\part{Electromagnetism}
+
+\chapter{第七章~~静电场的基本规律}
+\input{Chapters/PART III/EM1.tex}
+
+\chapter{第八章~~稳恒电流}
+\input{Chapters/PART III/EM2.tex}
+
+\chapter{第九章~~磁场与电磁感应}
+\input{Chapters/PART III/EM3.tex}
+
+\chapter{第十章~~交流电和电磁波}
+\input{Chapters/PART III/EM4.tex}
+
+\nocite{*}
+\bibliography{references}
+\end{document}

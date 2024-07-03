@@ -1,0 +1,221 @@
+\section{机械能}
+\subsection{功}
+我们考虑质点的一个微小的元运动过程，并且有一个合外力$\boldsymbol{F}$作用在
+质点上，$\theta$为向量$\boldsymbol{F}$与$\Delta \boldsymbol{s}$的夹角，
+那么在此元过程内，我们有
+\begin{equation}
+    \Delta s=\frac{v^2-v_0^2}{2a},~~F\cos\theta =ma
+\end{equation}
+因此 
+\begin{equation}
+    \Delta s=\frac{m(v^2-v_0^2)}{2F\cos\theta}\Rightarrow 
+    F\Delta s\cos\theta=\frac{m(v^2-v_0^2)}{2}
+    =\frac{1}{2}mv^2-\frac{1}{2}mv_0^2
+\end{equation}
+为了方便起见，我们定义
+\begin{equation}
+    \boldsymbol{F}\cdot \Delta\boldsymbol{s}=F\Delta s\cos\theta
+\end{equation}
+其中$\theta$为向量$\boldsymbol{F}$与$\boldsymbol{s}$的夹角。更具体的
+请参见第一章中的向量部分。这样，原式简化为 
+\begin{equation}
+    \boldsymbol{F}\cdot \Delta \boldsymbol{s}=\frac{1}{2}mv^2-\frac{1}{2}mv_0^2
+\end{equation}
+
+由此受到启发，我们
+\begin{definition}
+    定义一个质量为$m$、速度为$v$的质点的动能(Kinetic~Energy)为
+    \begin{equation}
+        E_k=\frac{1}{2}mv^2
+    \end{equation}
+    动能的单位为焦耳(J)。
+\end{definition}
+以及 
+\begin{definition}
+    定义 
+    \begin{equation}
+        \boldsymbol{F}\cdot \boldsymbol{s}=Fs\cos\theta
+    \end{equation}
+    为功，用W表示。做功的单位为焦耳(J)。
+\end{definition}
+
+这个定义只适用于元过程或者恒力作用下的直线运动过程，如果是曲线运动，
+需求出每个元过程的元功，并对其求和。
+
+\begin{definition}
+    定义表示做功快慢的量叫做“功率”，用P表示：
+    \begin{equation}
+        P=\frac{dW}{dt}=\boldsymbol{F}\cdot \boldsymbol{v}=Fv\cos\theta
+    \end{equation}
+    其单位为瓦特(W)。
+\end{definition}
+\subsection{动能定理}
+\subsubsection*{1、质点的动能定理}
+所谓质点的动能定理，即上节所述的式(3.4)：
+\begin{equation}
+    \boldsymbol{F}\cdot \Delta \boldsymbol{s}=\frac{1}{2}mv^2-\frac{1}{2}mv_0^2
+\end{equation}
+该式仅对$\Delta s\to 0$的元过程有效。
+
+如果运动过程比较简单，我们可以直接求和，例如对于恒力$\boldsymbol{F}$作用下的
+匀变速直线运动，我们会有
+\begin{equation}
+    Fs\cos\theta=\frac{1}{2}mv^2-\frac{1}{2}mv_0^2
+\end{equation}
+\subsubsection*{2、质点系的动能定理}
+在质点系内，除了合外力做功外，还有可能存在内力做功。我们考察第
+$i,j$个质点，它们之间的相互作用力做功之和为
+\begin{equation}
+    W_{ij}=\boldsymbol{f_{i\rightarrow j}}\cdot d\boldsymbol{s_j}+
+    \boldsymbol{f_{j\rightarrow i}}\cdot d\boldsymbol{s_i}=
+    \boldsymbol{f_{i\rightarrow j}}\cdot \left(d\boldsymbol{s_j}
+    -d\boldsymbol{s_i}\right)=\boldsymbol{f_{i\rightarrow j}}\cdot 
+    d\boldsymbol{s_{j\rightarrow i}}
+\end{equation}
+即若质点系内质点有相对运动，并且质点间有相互作用力的话，就会存在内力做功。
+
+那么，对于质点系，其动能定理应该写为
+\begin{equation}
+    W_{\text{合外}}+W_{\text{内}}=\Delta \sum_{i=1}^{n} E_{k_i}
+\end{equation}
+并且，如果质点系中没有相对运动，其动能定理还可以简化为
+\begin{equation}
+    W_{\text{合外}}=\Delta \sum_{i=1}^{n} E_{k_i}
+\end{equation}
+应用中更常用的是质点系的动能定理，而不是质点的动能定理。
+\subsection{势能(Potential)}
+\subsubsection*{1、势能的定义}
+有些力对于一个质点所做之功，仅仅依赖于质点的初始点和到达的末点的位置。这样
+的力，我们称其为保守力。
+
+\begin{definition}
+    当选定一个空间点为势能零点时，受保守力的质点从当前位置移动到这个零点的过程中
+    保守力所做之功是一定的。我们将这一部分功称为“势能”，用U表示。
+\end{definition}
+
+在此定义下，我们有
+\begin{equation}
+    W_{\text{保}}=\sum \boldsymbol{F_{\text{保}}}\cdot \Delta \boldsymbol{s}
+    =U(P)-U(Q)
+\end{equation}
+对于质点系来说，区别仅仅是一个势能和功的求和，因此上式对于质点系也是成立的。
+考虑没有内力和非保守力做功的质点系，会有 
+\begin{equation}
+    W_{\text{保}}=U(P)-U(Q)=\Delta E_k=E_{kQ}-E_{kP}
+\end{equation}
+或者
+\begin{equation}
+    E_{kQ}+U(Q)=E_{kP}+U(P)
+\end{equation}
+我们把机械能定义作动能与势能之和，因此上式被称为机械能守恒定理。
+
+下面我们介绍几种常见的势能。
+\subsubsection*{2、重力势能}
+对于质量为$m$的物体，在相对地球产生$\Delta \boldsymbol{s}$的位移过程中的
+重力做功为
+\begin{equation}
+    \Delta W=m\boldsymbol{g}\cdot \Delta \boldsymbol{s}=
+    mg\Delta s\cos\theta=mg\Delta h~~(\Delta h\to 0)
+\end{equation}
+可见重力做功仅与起始位置有关，重力是保守力。以地面为零势能点，我们有 
+\begin{equation}
+    U=\sum mg\Delta h=mgh
+\end{equation}
+这就是重力势能的表达式。
+\subsubsection*{3、弹性势能}
+关于弹性势能的表达式，其推导过程在中学阶段往往并不容易，因此我们直接
+给出结论，不要求中学生读者掌握其推导过程。
+
+\begin{theorem}
+    对于劲度系数为$k$的弹簧，选取弹簧原长处为势能零点，则弹簧发生伸缩$x$时
+    所具有的弹性势能为
+    \begin{equation}
+        U=\frac{1}{2}kx^2
+    \end{equation}
+\end{theorem}
+
+这一结论尽管未在正常的高中课本中出现过，但经常出现在练习题目当中。
+\section{动量}
+\subsection{动量定理}
+\subsubsection*{1、质点的动量定理}
+考虑一个质点$m$，根据牛顿第三定律，我们有 
+\begin{equation}
+    \boldsymbol{F_{\text{合外}}}=m\frac{\Delta \boldsymbol{v}}{\Delta t}
+    ~~(\Delta t\to 0)
+\end{equation}
+我们可以定义$m\boldsymbol{v}$为一个质点$m$的动量$\boldsymbol{p}$，那么上式
+可以表述为
+\begin{equation}
+    \boldsymbol{F_{\text{合外}}}=m\frac{\Delta \boldsymbol{v}}{\Delta t}
+    =\frac{\Delta \boldsymbol{p}}{\Delta t}~~(\Delta t\to 0)
+\end{equation}
+即质点的动量对于时间的变化率为合外力。
+\subsubsection*{2、质点系的动量定理}
+考虑一个质点系，根据牛顿第三定律，我们有 
+\begin{equation}
+    \sum \left(\boldsymbol{F_{\text{外}i}}+\boldsymbol{F_{\text{内}i}}\right)
+    =\boldsymbol{F_{\text{合外}}}+\boldsymbol{F_{\text{合内}}}=
+    \boldsymbol{F_{\text{合外}}}=\sum m_i\frac{\Delta v_i}{\Delta t}
+    ~~(\Delta t\to 0)
+\end{equation}
+即 
+\begin{equation}
+    \boldsymbol{F_{\text{合外}}}=\sum \frac{\Delta \boldsymbol{p}_i}{\Delta t}
+    ~~(\Delta t\to 0)
+\end{equation}
+\subsection{动量守恒定理}
+\begin{definition}
+    封闭系：除了其内质点的相互作用外，没有其它外力作用在它们上面的体系。
+\end{definition}
+
+在一个封闭的力学体系中，$\boldsymbol{F_{\text{合外}}}=0,d\boldsymbol{p}=0$，
+因此我们有
+
+\begin{theorem}
+    动量守恒定理：对于一个封闭的力学体系，其总动量是不随时间改变的。因此动量是守恒的。
+\end{theorem}
+
+在这里，我们是针对一个封闭的质点系，通过动量定理得到的动量守恒定理。实际上，
+这一定理也可以通过更为普遍的空间对称性的原则，即在没有外场存在的情况下，
+任何一个封闭的物理体系都是空间平移不变的这一事实重新推导出来。因此，
+动量守恒定理是物理学中最基本的普适定理之一。到目前为止，尚未发现其
+被违背的例子。
+\section{碰撞}
+\subsection{碰撞的分类}
+\begin{definition}
+    弹性碰撞：碰撞前后动量和动能同时守恒的碰撞；\\
+    非弹性碰撞：碰撞前后动能不守恒的碰撞；\\
+    完全非弹性碰撞：在非弹性碰撞中，如果物体在相碰后粘合在一起，这
+    时动能的损失最大，这种碰撞叫做完全非弹性碰撞。
+\end{definition}
+
+\subsection{两刚性球弹性正碰后的速度}
+\begin{eg}
+    钢球1的质量为$m_1$，钢球2的质量为$m_2$，球2原来静止，球1以速度$v_1$向 
+    球2运动，求发生弹性正碰后两球的速度$v_1',v_2'$。
+\end{eg}
+
+解：首先我们列出系统的动量守恒式，即 
+\begin{equation}
+    m_1v_1=m_1v_1'+m_2v_2'
+\end{equation}
+以及动能守恒式：
+\begin{equation}
+    \frac{1}{2}mv_1^2=\frac{1}{2}mv_1'^2+\frac{1}{2}mv_2'^2
+\end{equation}
+由第一式得到 
+\begin{equation}
+    m_1(v_1-v_1')=m_2v_2'
+\end{equation}
+由第二式得到 
+\begin{equation}
+    \frac{1}{2}m_1(v_1-v_1')(v_1+v_1')=\frac{1}{2}m_2{v'_2}^2
+\end{equation}
+联立得到
+\begin{equation}
+    v_1'=\frac{m_1-m_2}{m_1+m_2}v_1,~~v_2'=\frac{2m_1}{m_1+m_2}v_1
+\end{equation}
+应该注意的是，利用动量守恒和动能守恒，根据碰撞前的速度，我们只能
+计算出两个物体发生弹性正碰后的速度。如果发生的是斜碰，虽然是弹性碰撞，
+也不能这样简单地计算出它们碰撞后的速度。这个问题比较复杂，我们就不讨
+论了。

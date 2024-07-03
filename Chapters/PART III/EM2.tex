@@ -1,0 +1,162 @@
+\section{电流}
+\begin{definition}
+    电荷的定向移动形成电流。
+\end{definition}
+
+\begin{theorem}
+    导体中存在持续电流的条件，是保持导体两端的电势差。
+\end{theorem}
+
+\begin{definition}
+    通过导体横截面的电量跟通过这些电量所用的时间的比值，叫做电流强度。
+    如果时间$t$内通过导体横截面的电量为$q$，那么电流强度
+    \begin{equation}
+        I=\frac{q}{t}
+    \end{equation}
+    在国际单位制中，电流强度的单位是安培，简称安，国际符号是$A$。
+\end{definition}
+
+\begin{definition}
+    电路中，如果电流的方向不随时间而改变，这样的电流叫做直流电；如果
+    电流的方向和大小都不随时间而改变，这样的电流叫做稳恒电流。
+\end{definition}
+
+\section{欧姆定律}
+\begin{theorem}
+    德国物理学家欧姆（1787—1854）通过实验研究，对导体中电流与电压的关系得出
+    了如下的结论：通过导体的电流跟加在导体两端的电压成正比，即$I\propto U$，
+    通常把这个关系写作：
+    \begin{equation}
+        R=\frac{U}{I}
+    \end{equation}
+    式中$R$是电压与电流的比值。
+\end{theorem}
+
+实验表明，对于同一根导线来说，不管电压和电流的大小怎样变化，比值$R$都是
+相同的。$R$是一个和导体本身有关的量。
+
+\begin{definition}
+    导线的$ R $越大，在同一电压下，通过它的电流就越小。可见，比值$ R $反映出导
+    线对电流的阻碍作用，我们把它叫做导体的电阻。
+\end{definition}
+
+上面的公式可以写成 
+\begin{equation}
+    I=\frac{U}{R}
+\end{equation}
+这个公式表示导体中的电流强度跟导体两端的电压成正比，跟导体的电阻成反比，
+这就是欧姆定律。
+
+根据欧姆定律可以规定电阻的单位，电阻的单位是欧姆，简称欧，国际符
+号是$\Omega$。它是这样规定的：如果在某段导线两端加上 1 伏特电压，通过它的电
+流强度是 1 安培，这段导线的电阻就是 1 欧姆：
+\begin{equation}
+    1\Omega=\frac{1V}{1A}
+\end{equation}
+\section{电阻定律~电阻率}
+\begin{theorem}
+    实验表明，导线的电阻跟它的长度成正比，跟它的横截面积成反比，这就是 
+    电阻定律，用公式来表示可以写作 
+    \begin{equation}
+        R=\rho\frac{l}{S}
+    \end{equation}
+    式中的比例系数$\rho$跟导体的材料有关系，$\rho$是一个反应材料导电性
+    好坏的物理量，叫做材料的电阻率。
+\end{theorem}
+
+在中学，我们对于电阻以及恒定电流的认识往往也就是停留在实验规律这一层面上。
+值得一提的是，更加科学的认知方法是通过欧姆定律的宏观形式推测出其
+微观形式，然后利用微观形式的欧姆定律导出电阻的表达式以及后续
+要学习的闭合回路的欧姆定律，这样会使得理论更加完备且具有联系，
+因为我们仅仅是基于一个基本的实验规律建设出恒定电流的理论。但在中学阶段，
+这些往往是不那么必要的，因此我们也不再详细叙述。
+\section{电功和电功率}
+\begin{theorem}
+    如果导体两端的电压为$U$，通过导体横截面的电量为$q$，那么，电场力
+    所做的功为$W=qU$，由于$q=It$，因此 
+    \begin{equation}
+        W=UIt
+    \end{equation}
+    上式中的$W,U,I,t$的单位分别是焦耳、伏特、安培、秒。
+\end{theorem}
+
+电场力做的功常常说成是电流做的功，简称电功。可以看到 
+\begin{theorem}
+    电流在一段电路上所做的功，跟这段电路两端的电压、电路中的电流强度和
+    通电时间成正比。
+\end{theorem}
+
+\begin{definition}
+    电流所做的功跟完成这些功所用的时间的比值叫做电功率，用 P 表示电功
+    率，那么
+    \begin{equation}
+        P=\frac{W}{t}=UI
+    \end{equation}
+    上式中$P,U,I$的单位分别用瓦特、伏特、安培。
+\end{definition}
+\begin{theorem}
+    一段电路上的电功率，跟这段电路两端的电压和电路中的电流强度成正比。
+\end{theorem}
+\section{焦耳定律}
+\subsection{焦耳定律}
+\begin{theorem}
+    电流通过导体产生的热量，跟电流强度的平方、导体的电阻和通电时间
+    成正比，即 
+    \begin{equation}
+        Q=I^2Rt
+    \end{equation}
+    其中$Q,I,R,t$的单位分别是焦耳、安培、欧姆和秒。
+\end{theorem}
+\subsection{电功和电热的关系}
+\begin{theorem}
+    有在纯电阻电路里，电功才等于电热；在非纯电阻电路里，要注
+    意电功和电热的区别。
+\end{theorem}
+\section{串联与并联}
+\subsection{电阻的串联}
+当电阻$R_1,R_2$串联时，设通过回路的电流为$I$，则
+\begin{equation}
+    U=IR_1+IR_2\Rightarrow R_{eq}=\frac{U}{I}=R_1+R_2
+\end{equation}
+也就是说，串联电阻的等效电阻$R_{eq}$为串联电阻的各自电阻之和。
+\subsection{电阻的并联}
+当电阻$R_1,R_2$并联时，设并联电路两端的电压为$U$，则
+\begin{equation}
+    I=\frac{U}{R_1}+\frac{U}{R_2}\Rightarrow
+    R_{eq}=\frac{U}{I}=\frac{1}{\frac{1}{R_1}+\frac{1}{R_2}}
+    =\frac{R_1R_2}{R_1+R_2}
+\end{equation}
+这就是并联电阻的等效电阻表达式。
+\section{电动势~闭合电路的欧姆定律}
+常规的教科书老是喜欢介绍完电动势后，直接言明闭合电路的欧姆定律是实验规律。
+这种讲法，暂且不管正确与否，但对于学生理解电路是不利的。因此笔者采取
+另外一种讲法。
+\subsection{电源与电动势}
+我们都知道，电源是维持电路的关键。事实上，电源维持电流的原理是，
+电源可以在其内部产生一个性质与电场非常类似的场，它整体上与电源内
+电场的方向相反，并且能够对电荷施加大小正比于电荷量的力的作用。
+这个场常常被称为非静电场，类比电势，该场可以产生一个场的势$\varepsilon$，
+这个势就被称为电源的电动势。
+\subsection{闭合电路的欧姆定律}
+由于电动势和电势的相似性，考虑电源的内电阻$r$，我们可以合理推断，
+原先的欧姆定律可以被改写为
+\begin{equation}
+    I=\frac{\varepsilon-U}{r}
+\end{equation}
+或者 
+\begin{equation}
+    \varepsilon=Ir+U=I(R+r)
+\end{equation}
+或者 
+\begin{equation}
+    I=\frac{\varepsilon}{R+r}
+\end{equation}
+这就是闭合电路的欧姆定律。
+\begin{theorem}
+    闭合电路的欧姆定律：闭合电路中的电流强度跟电源的电动势成正比，
+    跟内、外电路中的电阻之和成反比。
+\end{theorem}
+
+关于闭合电路的欧姆定律，高中衍生出很多的应用，但读者只需掌握书中讲述的
+基本原理，我想理解那些应用还是很容易的，笔者不怎么关心这些实际应用，
+因此我们也就不再细讲了。

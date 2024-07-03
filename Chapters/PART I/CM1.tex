@@ -1,0 +1,759 @@
+\section{力}
+\subsection{力的概念}
+\begin{definition}
+    我们将物体对物体的作用称作力。
+\end{definition}
+
+很显然地，我们认为力是有大小的，事实上，
+在国际单位制下，力的单位是牛顿，简称牛，国际符号是N。并且，我们很容易
+地知道，描述一个力是需要方向的，例如，你向不同的方向推车，即对车施加
+作用，产生的效果是不相同的，如果没有方向的概念，我们将无法区分这两个
+作用，或者说这两个力。
+
+为了直观地说明力的作用，我们常常用一根带箭头的线段来表示力。
+这个线段的长度代表力的大小，指向表示力的方向。
+\subsection{重力}
+\begin{definition}
+    地球上一切物体都受到地球的吸引作用。这种由于地球的吸引而使得
+    物体受到的力叫做重力。
+\end{definition}
+
+一个物体的各部分都要受到地球对它的作用力，我们可以认为重力的作用
+集中于一点，这一点叫做物体的重心。或者说，我们可以把重力总的作用
+等效于作用在中心上的等大的力，实际上，后面我们会知道，重心上的
+等效力需要满足重力在大小和力矩上的等效，我们实际也是通过这种方式
+确定重心的位置的。
+\subsection{弹力}
+\begin{definition}
+    发生形变的物体，由于要恢复原状，对跟它接触的物体会产生力的作用，
+    这种力叫做弹力。
+\end{definition}
+
+弹力的方向是与形变方向相反的。
+
+\subsection{胡克定律}
+弹力的大小根形变的大小有关，形变越大，弹力也越大。
+\begin{theorem}
+    弹簧弹力的大小$f$和弹簧伸长(或缩短)的长度$x$成正比，写成公式就是
+    \begin{equation}
+        f=kx
+    \end{equation}
+    其中$k$是比例系数，称为弹簧的劲度系数或者倔强系数。
+    倔强系数是一个有单位的量。在国际单位制中，$f$ 的单位是牛，
+    $x$ 的单位是米，$k$ 的单位是牛/米。
+\end{theorem}
+这个规律是由英国科学家胡克发现的，叫做胡克定律。
+
+胡克定律有它的适用范围。物体的形变过大，超出一定限度，上述正比关
+系将不再适用，这时即使撤去外力，物体也不能完全恢复原状。这个限度叫做
+弹性限度。胡克定律在弹性限度内适用。弹性限度内的形变叫做弹性形变。本
+书中提到的形变，除非特别指明，一般是指弹性形变。
+
+\subsection{摩擦力}
+\begin{definition}
+    当一个物体在另一个物体表面上做相对滑动的时候，要受到另一个物
+    体阻碍它运动的力，这种力叫做滑动摩擦力。滑动摩擦力的方向总跟
+    接触面相切，并且跟物体的相对运动的方向相反。
+\end{definition}
+
+\begin{theorem}
+    实验表明：滑动摩擦力跟压力成正比，或者说，跟一个物体对另一个物体
+    表面的垂直作用力成正比。用$f$表示滑动摩擦力的大小，$N$表示压力的
+    大小，那么 
+    \begin{equation}
+        f=\mu N
+    \end{equation}
+    其中$\mu$是比例常数，叫做滑动摩擦系数。这是一个比值，没有单位。
+\end{theorem}
+
+\subsection{牛顿第三定律}
+\begin{theorem}
+    两个物体之间的作用力和及作用力总是大小相等，方向相反，作用
+    在一条直线上。这就是牛顿第三定律。
+\end{theorem}
+
+有人喜欢将其简称为“牛三”，我个人是不认同这种称呼的。一般地，我们 
+将其简称为“第三定律”是比较合适的。
+\subsection{力的合成与分解}
+\begin{definition}
+    一个力，如果它产生的效果跟几个力共同产生的效果相同，这个力就
+    叫做那几个力的合力，求几个力的合力叫做力的合成。
+\end{definition}
+
+\begin{theorem}
+    实验表明，对于两个互成角度的共点力，可以用表示这两个力的线段为邻
+    边作平行四边形，这两个邻边之间的对角线就表示合力的大小和方向，
+    这叫做力的平行四边形法则。
+\end{theorem}
+
+\begin{definition}
+    如果几个力产生的效果跟原来一个力产生的效果相同，这几个力就叫做原
+    来那个力的分力。求一个已知力的分力叫做力的分解。
+\end{definition}
+
+\section{向量}
+力不但有大小，而且有方向。相同大小的力，方向不同，它们的作用效果并
+不相同。要把一个力完全表达出来，除了说明它的大小，还要指明它的方向才
+行。
+
+这种既有大小又有方向的物理量，除了力而外，在物理学中还有很多。我
+们在初中学过的速度也是这类物理量。
+
+这样，我们就接触到一类物理量。它们的共同特点是：既有大小，又有方
+向。\begin{definition}
+    这种既有大小又有方向的物理量，叫做向量。
+\end{definition}
+
+力是矢量，速度也是向量。那
+些只有大小没有方向的物理量，叫做标量。长度、质量、时间是标量，初中学
+过的功、温度等也是标量。
+\subsection{向量的加减规则}
+我们知道，力的描述需要大小和方向两个量。为了描述力，
+我们用有方向的线段代表力，该线段的长度在数值上等于
+力的大小，箭头指向即为力的方向。
+
+我们可以把这种有方向的线段叫做向量，把线段的长度叫做向量的模，
+向量$\boldsymbol{a}$的模被记为$|\boldsymbol{a} | $或$a$，
+并把模等于0的向量称为零向量，零向量仅仅是为向量体系的完整性而
+提出的概念，它的的方向是任意的。
+
+在这种描述方法下，当物体受到一个力，又受到第二个力，
+那么在几何上，显然地，质点的总受力可以由代表分力的向量
+首尾相接后从末端指向前端的第三个向量来表示。
+
+\begin{definition}
+    简洁起见，我们可以定义
+    \begin{equation}
+        \boldsymbol{a}+\boldsymbol{b}
+    \end{equation}
+    为两个向量按次序首尾相接后的从末端指向前端的向量，其中
+    $\boldsymbol{a}$代表第一个向量，$\boldsymbol{b}$代表第二个向量，
+    这样，$\boldsymbol{a}+\boldsymbol{b}$所表示的向量就可以代表
+    由向量$\boldsymbol{a}$和$\boldsymbol{b}$代表的力的合力。
+\end{definition}
+
+有了“$+$”这种记号，或者说运算方式，我们可以将一些显而易见的
+规律表示为
+\begin{equation}
+    \boldsymbol{a}+\boldsymbol{b}=
+    \boldsymbol{b}+\boldsymbol{a}.
+\end{equation}
+以及
+\begin{equation}
+    (\boldsymbol{a}+\boldsymbol{b})+\boldsymbol{c}=
+    \boldsymbol{a}+(\boldsymbol{b}+\boldsymbol{c}).
+\end{equation}
+这两条规律分别被称为向量相加的交换律和结合律。
+
+另外，有时我们还会涉及从力中消去一段力，因此我们用 
+\begin{equation}
+    \boldsymbol{a}-\boldsymbol{b}
+\end{equation}
+表示能够代表原始力消去一段力后的剩余力的向量，其中
+向量$\boldsymbol{a}$代表原始力，向量$\boldsymbol{b}$
+代表消除的力。
+
+我们很容易知道
+\footnote{如果你觉得不容易知道的话可以亲自来问作者，我懒得在这里
+详细叙述了。邮箱在封面上已经给出，可通过邮件联系。}
+，$\boldsymbol{a}-\boldsymbol{b}$代表的向量实际上
+等同于向量$\boldsymbol{a}$和与$\boldsymbol{b}$向量方向相反
+但长度相等的向量相加后得到的向量。
+因此若我们用$-\boldsymbol{b}$代表与$\boldsymbol{b}$向量方向相反
+但长度相等的向量，并且使用记号(1.3)，我们可以将这一规律表示为 
+\begin{equation}
+    \boldsymbol{a}-\boldsymbol{b}
+    =\boldsymbol{a}+(-\boldsymbol{b}).
+\end{equation}
+以上就是向量体系的加减运算规则。
+
+值得注意的是，尽管我们是通过力引进了这一基本规定，
+但它对于像速度、加速度等物理量都是适用的，我们也可以
+利用向量来描述这些物理量。
+
+\subsection{向量与数的乘法}\footnote{
+    目前我们还没有看到从这一部分之后的内容的实际意义，但为了完备性，
+    我们提前给出这些定义。读者若无法理解其中的情境，可在学习后续课程后
+    再来理解。
+}
+显然地，仅仅只有上面的所谓向量加减运算还不足以使得向量
+成为描述带方向物理量的实用体系。在考虑力的方向的前提下，
+牛顿第二定律告诉我们，一质点所受力的向量等同于长度为质点
+质量倍，方向与质点的加速度同向的向量，但是再未补充新的
+定义之前，我们无法用向量的表达式表现这一规律。
+
+\begin{definition}
+    我们定义$\lambda \boldsymbol{a}$表示一个向量，
+    其中$\boldsymbol{a}$是一个向量，$\lambda$是一个实数。
+    并且它的模满足
+    \begin{equation}
+        | \lambda \boldsymbol{a}|= |\lambda  | |\boldsymbol{a}|,
+    \end{equation}
+    它的方向当$\lambda >0$时与$\boldsymbol{a}$同向，反之则反向；
+    而当$\lambda =0$时，该向量为所谓零向量。
+\end{definition}
+
+那么在这一定义下，牛顿第二定律的矢量形式可以用向量简洁地描述为 
+\begin{equation}
+    \boldsymbol{F}=m\boldsymbol{a}.
+\end{equation}
+在之前的定义下，我们可以很容易地知道
+\begin{equation}
+    \lambda(\mu\boldsymbol{a})=\mu(\lambda\boldsymbol{a})
+    =(\lambda \mu)\boldsymbol{a}.
+\end{equation}
+因为这三个式子所代表的向量的大小和方向都是相同的，这是显而
+易见的。这条规则被称为向量数乘的结合律。
+
+我们还很容易地知道
+\begin{equation}
+    (\lambda+\mu)\boldsymbol{a}=\lambda\boldsymbol{a}+
+    \mu\boldsymbol{a}.
+\end{equation}
+这条规则被称为向量数乘的分配律。
+
+向量相加及数乘的运算统称为向量的线性运算。
+\subsection{使用空间直角坐标系简化向量的线性运算}
+我们在三维空间中建立直角坐标系，并引入三个长度为1的
+分别与$x,y,z$轴平行的向量$\boldsymbol{i},\boldsymbol{j},
+\boldsymbol{k}$。那么，依据向量相加的交换律与结合律和向量
+数乘的结合律与分配律，我们很容易地知道，以空间中$A(x_1,y_1,z_1)$和
+$B(x_2,y_2,z_2)$为起始点的向量$\boldsymbol{AB}$满足
+\begin{equation}
+    \boldsymbol{AB}=(x_2-x_1)\boldsymbol{i}+
+    (y_2-y_1)\boldsymbol{j}+(z_2-z_1)\boldsymbol{k}
+    =\Delta x\boldsymbol{i}+\Delta y\boldsymbol{j}
+    +\Delta z\boldsymbol{k}.
+\end{equation}
+并且，若我们再任意引入一个向量
+\begin{equation}
+    \boldsymbol{CD}=\Delta x'\boldsymbol{i}
+    +\Delta y'\boldsymbol{j}+\Delta z'\boldsymbol{k}.
+\end{equation}
+再次依据之前的定义和规律，两向量的和可以被写为
+\begin{equation}
+    \boldsymbol{AB}+\boldsymbol{CD}=(\Delta x'+\Delta x)\boldsymbol{i}
+    +(\Delta y'+\Delta y)\boldsymbol{j}
+    +(\Delta z'+\Delta z)\boldsymbol{k}.
+\end{equation}
+并且向量的数乘可以被写作
+\begin{equation}
+    \lambda \boldsymbol{AB}=(\lambda \Delta x)\boldsymbol{i}
+    +(\lambda \Delta y)\boldsymbol{j}
+    +(\lambda \Delta z)\boldsymbol{k}.
+\end{equation}
+也就是说，对向量进行加减以及与数相乘，只需对向量的各个坐标分别进行
+相应的数量运算就可以了。
+
+另外，在物理里面，为了描述空间中点的位置，我们常常使用所谓向径或
+矢径。向径即为起始点为原点，终点为点所在位置坐标的向量。例如，
+当点位于$E(x,y,z)$处时，其向径为
+\begin{equation}
+    \boldsymbol{r}=x\boldsymbol{i}+y\boldsymbol{j}
+    +z\boldsymbol{k}.
+\end{equation}
+向径的定义在物理中也有着重要的应用，但没有新的根本性的内容，
+我们不再赘述。
+
+\subsection{向量的投影}
+\begin{definition}
+    我们用
+    $\langle \boldsymbol{a},\boldsymbol{c}\rangle$
+    表示向量$\boldsymbol{a},\boldsymbol{c}$之间的夹角，其取值
+    小于$\pi$。并且定义
+    \begin{equation}
+        Prj_c\boldsymbol{a}=|\boldsymbol{a} |
+        \cos\langle \boldsymbol{a},\boldsymbol{c}\rangle  
+    \end{equation}
+    为向量$\boldsymbol{a}$在向量$\boldsymbol{c}$上的投影。
+\end{definition}
+那么，显然投影存在性质
+\begin{equation}
+    Prj_c(\boldsymbol{a}+\boldsymbol{b})=
+    Prj_c\boldsymbol{a}+Prj_c\boldsymbol{b}
+\end{equation}
+以及 
+\begin{equation}
+    Prj_c(\lambda\boldsymbol{a})=\lambda
+    Prj_c\boldsymbol{a}.
+\end{equation}
+\subsection{新定义-点乘}
+我们知道，在力学中有着所谓做功的概念，即力$\boldsymbol{F}$
+作用于质点上，并且质点移动了$d\boldsymbol{r}$的过程中，该 
+力对质点所做的功可以用向量表示为
+\begin{equation}
+    dW=| \boldsymbol{F}| |d\boldsymbol{r} | \cos\theta .
+\end{equation}
+其中$\theta $为向量$\boldsymbol{F}$和向量$d\boldsymbol{r}$
+之间的夹角。
+
+\begin{definition}
+    现在我们定义
+    \begin{equation}
+        \boldsymbol{a}\cdot \boldsymbol{b}=
+        | \boldsymbol{a}| |\boldsymbol{b} | \cos\theta.
+    \end{equation}
+    其中$\theta $是向量$\boldsymbol{a},\boldsymbol{b}$之间的夹角。
+    这种新定义出来的运算方式被称为向量的点乘，运算的结果被称为两个向量
+    的数量积。
+\end{definition}
+
+定义了这种新运算后，显然地，我们可以用这种新运算来表示
+做功等物理量，即做功可以被表示为
+\begin{equation}
+    dW=\boldsymbol{F}\cdot d\boldsymbol{r}
+    | \boldsymbol{F}| |d\boldsymbol{r} | \cos\theta .
+\end{equation}
+实际上，定义这种新运算不过是相当于给原来的式子换了一种更简洁
+更利于研究的记号而已。容易知道，数量积满足
+\begin{equation}
+    \boldsymbol{a}\cdot \boldsymbol{b}=\boldsymbol{b}
+    \cdot \boldsymbol{a}.
+\end{equation}
+这一规则常被称为交换律，易证不再赘述。另外，数量积还满足
+\begin{equation}
+    (\boldsymbol{a}+\boldsymbol{b})\cdot \boldsymbol{c}
+    =\boldsymbol{a}\cdot \boldsymbol{c}
+    +\boldsymbol{b}\cdot \boldsymbol{c}.
+\end{equation}
+这一规则常被称为分配律，可以作如下证明：
+
+\begin{equation}
+    (\boldsymbol{a}+\boldsymbol{b})\cdot \boldsymbol{c}=
+    | \boldsymbol{c}|Prj_c(\boldsymbol{a}+\boldsymbol{b}) .
+\end{equation}
+而投影有性质
+\begin{equation}
+    Prj_c(\boldsymbol{a}+\boldsymbol{b})=
+    Prj_c\boldsymbol{a}+Prj_c\boldsymbol{b}.
+\end{equation}
+那么 
+\begin{equation}
+    (\boldsymbol{a}+\boldsymbol{b})\cdot \boldsymbol{c}=
+    | \boldsymbol{c}|(Prj_c\boldsymbol{a}+Prj_c\boldsymbol{b})
+    =\boldsymbol{a}\cdot \boldsymbol{c}
+    +\boldsymbol{b}\cdot \boldsymbol{c}.
+\end{equation}
+
+数量积的第三个规律被称为结合律，即 
+\begin{equation}
+    (\lambda\boldsymbol{a})\cdot \boldsymbol{b}
+    =\lambda (\boldsymbol{a}\cdot \boldsymbol{b}).
+\end{equation}
+其中$\lambda$为实数。当$\boldsymbol{b}=\boldsymbol{0}$时，
+上式显然成立；当$\boldsymbol{b}\neq \boldsymbol{0}$时，按
+投影的性质，我们可以知道 
+\begin{equation}
+    (\lambda\boldsymbol{a})\cdot \boldsymbol{b}
+    =| \boldsymbol{b}|Prj_b(\lambda \boldsymbol{a})
+    =| \boldsymbol{b}|\lambda Prj_b\boldsymbol{a}
+    =\lambda | \boldsymbol{b}|Prj_b\boldsymbol{a}
+    =\lambda (\boldsymbol{a}\cdot \boldsymbol{b}).
+\end{equation}
+由上述结合律，利用交换律，还容易推得
+\begin{equation}
+    \boldsymbol{a}\cdot (\lambda \boldsymbol{b})=
+    \lambda (\boldsymbol{a}\cdot \boldsymbol{b})
+\end{equation}
+以及 
+\begin{equation}
+    (\lambda \boldsymbol{a})\cdot (\mu \boldsymbol{b})=
+    \lambda \mu(\boldsymbol{a}\cdot \boldsymbol{b}).
+\end{equation}
+这是因为
+\begin{equation}
+    \boldsymbol{a}\cdot (\lambda\boldsymbol{b})=
+    (\lambda\boldsymbol{b})\cdot \boldsymbol{a}=
+    \lambda(\boldsymbol{b}\cdot \boldsymbol{a})=
+    \lambda (\boldsymbol{a}\cdot \boldsymbol{b}),
+\end{equation}
+\begin{equation}
+    (\lambda \boldsymbol{a})\cdot (\mu \boldsymbol{b})=
+    \lambda [\boldsymbol{a}\cdot (\mu\boldsymbol{b})]=
+    \lambda [\mu(\boldsymbol{a}\cdot \boldsymbol{b})]=
+    \lambda \mu(\boldsymbol{a}\cdot \boldsymbol{b}).
+\end{equation}
+\subsection{数量积的坐标表示}
+在空间直角坐标系下，有向量 
+\begin{equation}
+    \boldsymbol{a}=a_x\boldsymbol{i}+a_y\boldsymbol{j}
+    +a_z\boldsymbol{k},~~~\boldsymbol{b}=b_x\boldsymbol{i}
+    +b_y\boldsymbol{j}+b_z\boldsymbol{k}.
+\end{equation}
+容易知道，其数量积为
+\begin{equation}
+    \boldsymbol{a}\cdot \boldsymbol{b}=a_xb_x+a_yb_y+a_zb_z.
+\end{equation}
+运用之前的规律很容易就能推出，因而我们不再赘述推导过程。
+
+另外，由于
+\begin{equation}
+    \boldsymbol{a}\cdot \boldsymbol{b}
+    =| \boldsymbol{a}| |\boldsymbol{b} | \cos\theta ,
+\end{equation}
+所以当$\boldsymbol{a},\boldsymbol{b}$都不是零向量时，有 
+\begin{equation}
+    \cos\theta=\frac{\boldsymbol{a}\cdot \boldsymbol{b}}
+    {| \boldsymbol{a}| |\boldsymbol{b} | }.
+\end{equation}
+
+将数量积的坐标表示式及向量的模的坐标代入上式，就得到
+\begin{equation}
+    \cos\theta =\frac{a_xb_x+a_yb_y+a_zb_z}
+    {\sqrt{a_x^2+a_y^2+a_z^2}\sqrt{b_x^2+b_y^2+b_z^2}},
+\end{equation}
+这就是两向量夹角余弦的坐标形式。
+\subsection{新定义-叉乘}
+当研究物体转动时，我们有所谓力矩
+\begin{equation}
+    | \boldsymbol{M}| =| \boldsymbol{r}| |\boldsymbol{F} |\sin\theta .
+\end{equation}
+其中$\theta $为向量$\boldsymbol{r}$与$\boldsymbol{F}$的夹角。
+我们知道，力矩显然是具有方向性的，即使力和向径的大小、夹角都相同，
+作用效果也常常不同。在物理中，我们规定力矩的方向由右手螺旋的规律决定。
+
+\begin{definition}
+    在物理的基础上，我们规定
+    \begin{equation}
+        \boldsymbol{a}\times \boldsymbol{b}
+    \end{equation}
+    代表大小为$| \boldsymbol{a}| |\boldsymbol{b} |\sin\theta $，
+    方向遵从右手螺旋规律的向量。
+\end{definition}
+
+有了这种新的写法，我们可以将力矩写为
+\begin{equation}
+    \boldsymbol{M}=\boldsymbol{r}\times\boldsymbol{F}.
+\end{equation}
+
+并且，我们有以下规律：
+\begin{equation}
+    \boldsymbol{b}\times\boldsymbol{a}=-\boldsymbol{a}\times
+    \boldsymbol{b},
+\end{equation}
+\begin{equation}
+    (\boldsymbol{a}+\boldsymbol{b})\times \boldsymbol{c}
+    =\boldsymbol{a}\times \boldsymbol{c}+\boldsymbol{b}\times
+    \boldsymbol{c},
+\end{equation}
+以及 
+\begin{equation}
+    (\lambda\boldsymbol{a})\times\boldsymbol{b}=
+    \boldsymbol{a}\times (\lambda \boldsymbol{b})
+    =\lambda(\boldsymbol{a}\times \boldsymbol{b}).
+\end{equation}
+后两个规律分别被称为分配律和结合律。
+\subsection{向量积的坐标表示}
+在空间直角坐标系下，有向量
+\begin{equation}
+    \boldsymbol{a}=a_x\boldsymbol{i}+a_y\boldsymbol{j}
+    +a_z\boldsymbol{k},~~~\boldsymbol{b}=b_x\boldsymbol{i}
+    +b_y\boldsymbol{j}+b_z\boldsymbol{k}.
+\end{equation}
+那么，按照上述运算规律，其向量积为
+\begin{equation}
+    \begin{aligned}
+        \boldsymbol{a}\times \boldsymbol{b} 
+        =&(a_x\boldsymbol{i}+a_y\boldsymbol{j}+a_z\boldsymbol{k})\times(b_x\boldsymbol{i}+b_y\boldsymbol{j}+b_z\boldsymbol{k})  \\
+        =&a_x\boldsymbol{i}\times(b_x\boldsymbol{i}+b_y\boldsymbol{j}+b_z\boldsymbol{k})+a_y\boldsymbol{j}\times(b_x\boldsymbol{i}+b_y\boldsymbol{j}+b_z\boldsymbol{k})+a_z\boldsymbol{k}\times(b_x\boldsymbol{i}+b_y\boldsymbol{j}+b_z\boldsymbol{k}) \\
+        =&a_xb_x(\boldsymbol{i}\times\boldsymbol{i})+a_xb_y(\boldsymbol{i}\times\boldsymbol{j})+a_xb_z(\boldsymbol{i}\times\boldsymbol{k})+a_yb_x(\boldsymbol{j}\times\boldsymbol{i})+a_yb_y(\boldsymbol{j}\times\boldsymbol{j})+a_yb_z(\boldsymbol{j}\times\boldsymbol{k})+ \\
+        &a_zb_x(\boldsymbol{k}\times\boldsymbol{i})+a_zb_y(\boldsymbol{k}\times\boldsymbol{j})+a_zb_z(\boldsymbol{k}\times\boldsymbol{k}).
+    \end{aligned}
+\end{equation}
+因为 
+\begin{equation}
+    \begin{aligned}
+        &\boldsymbol{i}\times \boldsymbol{i}=\boldsymbol{j}\times \boldsymbol{j}
+        =\boldsymbol{k}\times \boldsymbol{k}=0,
+        ~~\boldsymbol{i}\times \boldsymbol{j}=\boldsymbol{k},~~
+        \boldsymbol{j}\times \boldsymbol{k}=\boldsymbol{i},~~\\
+        &\boldsymbol{k}\times \boldsymbol{i}=\boldsymbol{j},~~
+        \boldsymbol{j}\times \boldsymbol{i}=-\boldsymbol{k},~~
+        \boldsymbol{k}\times \boldsymbol{j}=-\boldsymbol{i},~~
+        \boldsymbol{i}\times \boldsymbol{k}=-\boldsymbol{j},
+    \end{aligned}
+\end{equation}
+所以 
+\begin{equation}
+    \boldsymbol{a}\times\boldsymbol{b}=
+    (a_yb_z-a_zb_y)\boldsymbol{i}+
+    (a_zb_x-a_xb_z)\boldsymbol{j}+
+    (a_xb_y-a_yb_x)\boldsymbol{k}.
+\end{equation}
+这就是向量积的坐标表示。
+\section*{结语}
+理解向量的关键就在于，将向量的体系看作是描述物理中矢量的
+工具，而不是直接地将向量看作具有大小和方向的物理量本身。
+
+首先，我们用有方向的线段(即向量)描述需要彰显方向的物理量(矢量)，
+然后我们根据物理的需求，给向量带来了四种基本的运算方式规定，
+即向量的相加规定、向量与数相乘的规定、向量的点乘的规定、
+向量的叉乘的规定。这四种运算方式的规定本质上仅仅只是对
+于向量的特定运算方式的更简洁的更利于研究的表示形式而已。
+
+有了这四种运算方式的规定，我们可以更简洁地将代表两个位移线段
+首尾相接后的从末端指向前端的位移线段表示为
+$\boldsymbol{a}+\boldsymbol{b}$，将力的大小、路径大小
+以及力与路径之间的夹角的乘积表示为$\boldsymbol{F}
+\cdot d\boldsymbol{r}$等等。
+
+并且，我们用定义出的新运算符号简洁地表示了本就存在的规律，如
+\begin{equation}
+    (\boldsymbol{a}+\boldsymbol{b})+\boldsymbol{c}=
+    \boldsymbol{a}+(\boldsymbol{b}+\boldsymbol{c}).
+\end{equation}
+等。且由于时间所限，笔者并没有详细全面地列举和证明向量的规律，
+而仅仅只是讲述一种认识向量的思想。
+\section{直线运动}
+\subsection{机械运动}
+我们在初中学过，一个物体相对于另一个物体的位置变化叫做机械运动。
+从这里不难看出，机械运动是需要参照系的。尤其需要明确的一点是，
+运动总是相对的，而不是绝对的。
+
+\begin{definition}
+    被选作参照的另外的物体，被称为参照物。在以后的学习中，为了进行定量
+    计算，我们还常常会选定参照物建立参照系。
+\end{definition}
+\subsection{质点}
+\begin{definition}
+    当一个物体的大小、形状对结果造成的影响可以忽略时，将该物体看作一个有质量
+    而无体积的点来处理，这个等效的点叫做质点。
+\end{definition}
+
+在中学当中，质点往往是为了简化问题，这实际上比较容易理解。
+在后续的学习中，我们会发现将大的物体分解成无穷个质点来处理是非常
+常见的。
+\subsection{位置和位移}
+\begin{definition}
+    在物理学中，我们用位移表示质点位置的变化。位移被定义为向量，
+    其大小为始末位置的距离，方向由起始点指向终点。
+\end{definition}
+
+值得注意的是，位移与路程是两个不同的物理量。路程是指质点所通过的
+实际轨迹的长度，只有大小，没有方向，是个标量。
+\subsection{匀速直线运动~速度}
+\begin{definition}
+    物体在一条直线上运动，如果在相等时间里的位移相等，这种运动就叫做
+    匀速直线运动。匀速直线运动有时简称为匀速运动。
+\end{definition}
+
+\begin{definition}
+    在匀速直线运动中，位移和时间的比值，叫做匀速直线运动的速度。如果 
+    做匀速运动的物体在时间$t$内的位移是$s$，速度$v$就可以用下式来表示：
+    \begin{equation}
+        v=\frac{s}{t}
+    \end{equation}
+\end{definition}
+速度在数值上等于单位时间内位移的大小。在国际单位制中，常常用
+米/秒$(m/s)$作为速度的单位。
+
+速度不但有大小，而且有方向，是矢量。速度矢量的方向就是物体位移的
+方向。在匀速直线运动中，计算时通常取位移方向作为正方向，速度是正值。
+
+从速度的公式$v=s/t$可以得到 
+\begin{equation}
+    s=vt
+\end{equation}
+这个公式叫做匀速运动的位移公式。
+\subsection{匀速直线运动的图像}
+\subsubsection*{1、位移-时间图像}
+任意选择一个平面直角坐标系、用横轴表示时间，用纵轴表示位移，画出
+位移和时间的关系图线，这种图象叫做位移-时间图象，简称为位移图象。
+
+显然，位移图像的斜率为
+\begin{equation}
+    k=\frac{\Delta s}{\Delta t}
+\end{equation}
+这表示匀速直线运动的速度。
+\subsubsection*{2、速度-时间图像}
+在平面直角坐标系中，用横轴表示时间，用纵轴表示速度，画出速度和时
+间关系的图线，这种图象叫做运动的速度- 时间图象，简称为速度图象。匀速
+运动的速度不随时间改变，它的速度图象是一条与横轴平行的直线。
+
+匀速直线运动的速度-时间图像下的面积是
+\begin{equation}
+    \Delta S=v\Delta t=s
+\end{equation}
+即面积代表位移的大小。
+\subsection{变速直线运动}
+\subsubsection*{1、变速直线运动}
+\begin{definition}
+    物体在一条直线上运动，如果在相等时间里的位移不相等，这种运动就叫
+    做变速直线运动。变速直线运动有时简称为变速运动。
+\end{definition}
+
+\subsubsection*{2、平均速度}
+\begin{definition}
+    在变速直线运动中，运动物体的位移和所用时间的比值，叫做这段时间里
+的平均速度。如果用 $v$来表示平均速度，那么
+\begin{equation}
+    \overline{v}=\frac{s}{t}
+\end{equation}
+\end{definition}
+
+一般认为平均速度是一个标量，其方向意义不大。
+\subsubsection*{3、瞬时速度}
+\begin{definition}
+    运动物体在某一时刻(或某一位置)的速度，叫做顺时速度。
+\end{definition}
+
+在数学上，瞬时速度可以被表示为当$\Delta t$趋近于零时，平
+均速度的极限值，即 
+\begin{equation}
+    v=\lim\limits_{\Delta t\to 0}\overline{v}=\lim\limits_{\Delta t\to 0}
+    \frac{\Delta s}{\Delta t}
+\end{equation}
+其中$\lim\limits_{\Delta t\to 0}$表示极限的限制条件。
+
+瞬时速度既有大小，又有方向，是矢量。在直线运动中，瞬时速度的方向就
+是物体经过该点时的运动方向。即时速度的大小叫做即时速率，简称速率，它
+是一个表示物体运动快慢程度的标量。
+\subsection{匀变速直线运动~加速度}
+\begin{definition}
+    在一条直线上运动的物体，如果在相等的时间里速度的变化相等，物体的
+    运动就叫做匀变速直线运动，或者简称为匀变速运动。
+\end{definition}
+
+\begin{definition}
+    在匀变速直线运动中，速度的变化和所用的时间的比值，叫做匀变速直线
+    运动的加速度。
+\end{definition}
+
+用$v_0$表示运动物体开始时刻的速度(初速度)，用$v_t$表示经过一段时间$t$
+的速度(末速度)，用$a$表示加速度，那么，
+\begin{equation}
+    a=\frac{v_t-v_0}{t}
+\end{equation}
+由上式可以看出，加速度在数值上等于单位时间内速度的变化。
+
+加速度的单位是由时问的单位和速度的单位确定的。在国际单位制中，时
+间的单位是秒，速度的单位如果用 $m/s$、加速度的单位就是 $m/s^2$，读作米每二
+次方秒。
+
+加速度不但有大小，而且有方向，因此是矢量。
+
+在匀变速直线运动中，加速度矢量是恒定的，大小和方向都不改变，因此
+匀变速直线运动也就是加速度矢量恒定的运动。
+\subsection{匀变速直线运动的速度}
+\subsubsection*{1、匀变速直线运动的速度}
+根据定义
+\begin{equation}
+    a=\frac{v_t-v_0}{t}
+\end{equation}
+可以得到
+\begin{equation}
+    v_t=v_0+at
+\end{equation}
+这个公式叫做匀变速直线运动的速度公式。
+\subsubsection*{2、匀变速直线运动的速度图像}
+容易知道，匀变速直线运动的速度图像的斜率为 
+\begin{equation}
+    k=\frac{\Delta v}{\Delta t}=a
+\end{equation}
+即斜率等同于加速度。
+
+匀变速运动的位移可以用速度图线和横轴之间的面积来表示。可以这样
+想，我们把时间细分为很多相等的区段，在每个区段内，物体以区段
+开始时的速度进行匀速直线运动，此时这样一个虚拟的运动所经过的
+总的位移就是一个个长方形的面积之和。
+
+我们把时间区段分的越小，可以预见这样的找到的虚拟的运动与实际进行的
+运动所经过的位移就会越接近，同时，虚拟运动的面积之和也与实际运动的
+面积之和越来越接近。随着单个时间区段的减小，虚拟运动的位移会趋近于
+实际运动的位移值，同时，虚拟运动的面积也会趋近于实际运动的面积。
+而由于虚拟的运动所经过的总的位移就是一个个长方形的面积之和，因此
+当我们取的时间间隔无限小时，实际运动的位移就等同于其速度-时间曲线下面的面积。
+\subsection{匀变速直线运动的位移}
+\subsubsection*{1、匀变速直线运动的位移}
+我们已经知道匀变速直线运动的速度公式为
+\begin{equation}
+    v_t=v_0+at
+\end{equation}
+而匀变速直线运动的位移可以表示为
+\begin{equation}
+    s=\sum\lim\limits_{\Delta t\to 0}v_t\Delta t=
+    \sum\lim\limits_{\Delta t\to 0}(v_0+at)\Delta t
+\end{equation}
+并且 
+\begin{equation}
+    \lim\limits_{\Delta t\to 0}\frac{(t+\Delta t)^2-t^2}{\Delta t}
+    =\lim\limits_{\Delta t\to 0}\frac{2t\Delta t+\Delta t^2}{\Delta t}
+    =2t
+\end{equation}
+亦即 
+\begin{equation}
+    \lim\limits_{\Delta t\to 0}t\Delta t=\frac{1}{2}\Delta (t^2)
+\end{equation}
+将式(1.63)代入式(1.61)，得到 
+\begin{equation}
+    s=\sum\lim\limits_{\Delta t\to 0}(v_0+at)\Delta t=
+    v_0\sum\lim\limits_{\Delta t\to 0}\Delta t+
+    \frac{1}{2}a\sum\lim\limits_{\Delta t\to 0}\Delta (t^2)
+    =v_0t+\frac{1}{2}at^2
+\end{equation}
+这就是匀变速直线运动的位移公式。
+\subsubsection*{2、两个重要推论}
+根据$v_t=v_0+at$，我们有 
+\begin{equation}
+    t=\frac{v_t-v_0}{a}
+\end{equation}
+将此式代入匀变速直线运动的位移公式，得到
+\begin{equation}
+    \begin{aligned}
+        s&=v_0\frac{v_t-v_0}{a}+\frac{1}{2}a\left(\frac{v_t-v_0}{a}\right)^2\\
+        &=\frac{v_0v_t-v_0^2}{a}+\frac{v_t^2-2v_0v_t+v_0^2}{2a}\\
+        &=\frac{2v_0v_t-2v_0^2+v_t^2-2v_0v_t+v_0^2}{2a}\\
+        &=\frac{v_t^2-v_0^2}{2a}
+    \end{aligned}
+\end{equation}
+这一结论也常常被表述为
+\begin{equation}
+    v_t^2-v_0^2=2as
+\end{equation}
+
+另外，根据平均速度的定义，我们有 
+\begin{equation}
+    \overline{v}=\frac{s}{t}=v_0+\frac{1}{2}at=\frac{1}{2}(v_0+v_t)
+\end{equation}
+该式表明：在匀变速运动中，某段时间内的平均速度等于达段时间的初速
+度和末速度的算术平均值，要注意这个结论是利用匀变速运动的公式导出的，
+所以它只适用于匀变速运动，对非匀变速运动并不适用。
+\subsection{自由落体运动}
+\subsubsection*{1、自由落体运动}
+\begin{definition}
+    物体只在重力作用下，从静止开始下落的运动，叫做自由落体运动。
+\end{definition}
+
+\subsubsection*{2、自由落体运动的加速度}
+\begin{definition}
+    不同的自由落体，它们的运动情况相同：它们在做初速度为零的匀变速运
+    动中，在相同的时间内发生相同的位移。由此可以知道，在同一地点，一切物
+    体在自由落体运动中的加速度都相同。这个加速度叫做自由落体加速度，也叫
+    重力加速度，通常用$ g $来表示。
+\end{definition}
+
+目前国际上取$g=9.80665m/s^2$为重力加速度的标准值，在通常的计算中可以取
+$g=9.8m/s^2$。匀变速直线运动的公式在自由落体运动中仍是适用的，只不过把
+加速度换成了重力加速度$g$。
+\subsection{竖直上抛运动}
+\begin{definition}
+    将物体用一定的初速度沿竖直方向向上抛出去，物体所做的运动叫做竖直
+    上抛运动。
+\end{definition}
+
+竖直上抛运动和自由落体运动一样，本质上不过是匀变速直线运动规律的应用，
+因此我不再赘述详细求解方法。但是值得注意的一点是，正方向的问题。
+
+正方向的问题贯穿中学物理学应用的始终，如果不能理解到正方向的本质，对理解计算的
+过程有深远的恶劣影响。以竖直上抛为例，我们稍微介绍下所谓正方向。在计算竖直上
+抛运动时，我们可以不考虑分成很多过程，而是仅将其看作一个匀变速直线运动。那么 
+我们在计算上很快会发现一个问题：即有时候我们的速度算出来是负值，这实际说明一个
+问题：即重力加速度“削减”的速度值大于了初始的速度值，也就是说，实际速度的大小
+是此时速度的大小，而方向与初始的上抛方向相反。
+
+对上面这段话做一个总结，就是当我们计算出速度的值为负时，代表速度已经反向。
+这就是所谓正方向的本质。因此我们引入了所谓正方向的规定，即我们规定初始速度
+的方向为正方向，那么当计算出速度变为负值时，说明其方向与初始速度相反。
+
+理解正方向是一个漫长的过程，读者需要在每次计算中多多留意正方向规定的
+合理性，并总是试图寻找其本质，才能真正理解。

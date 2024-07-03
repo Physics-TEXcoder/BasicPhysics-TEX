@@ -1,0 +1,175 @@
+\section{机械振动}
+\subsection{机械振动}
+\begin{definition}
+    物体（或者物体的一部分）在平衡位置附近来回做往复运动，叫做机械振
+    动，常常简称为振动。
+\end{definition}
+
+物体之所以能够形成机械振动，是因为受到指向平衡位置的力的作用，使
+振动物体回到平衡位置的力叫做回复力。
+\subsection{表征振动的物理量}
+\begin{definition}
+    振动物体离开平衡位置的最大距离叫做振幅；\\
+    完成一次全振动经过的时间叫做周期；\\
+    在 1 秒内完成全振动的次数叫做频率；频率的单位是赫兹，简称赫，国际符号是 Hz。
+\end{definition}
+
+如果用$T$(秒)表示周期，用$f$(赫)表示频率，那么
+\begin{equation}
+    f=\frac{1}{T},~~T=\frac{1}{f}
+\end{equation}
+振幅、周期或频率是表征整个振动的物理量。一个振动，如果知道了它的
+振幅、周期或频率，我们就从整体上把握了振动的情况。
+\subsection{简谐振动}
+让我们考虑一个与弹簧连在一起的质点在光滑桌面上的运动。假设 
+弹簧的另外一端固定在墙壁上，而其质量可以忽略不计。若我们将 
+弹簧未变形时质点的坐标取作$x=0$，根据Hooke定律，当质点运动到
+$x$处时质点所受到的力为
+\begin{equation}
+    \boldsymbol{F}=-kx\boldsymbol{i}.
+\end{equation}
+其运动方程为
+\begin{equation}
+    m\frac{d^2x}{dt^2}=-kx,
+\end{equation}
+或是
+\begin{equation}
+    \frac{d^2x}{dt^2}+\frac{k}{m}x=
+    \frac{d^2x}{dt^2}+\omega_0^2=0.
+\end{equation}
+这里，$\omega_0=\sqrt{\frac{k}{m}}$称为弹簧振子的本征频率。
+
+下面，我们再来考虑一个单摆的运动方程。我们看到，拴在长度为$l$的 
+摆线下端的小物体所受到的外力有二：一是重力$-mg\boldsymbol{j}$，二是
+摆线对其的拉力$\boldsymbol{T}$。显然，小物体做的是一个以$O$点为圆心，
+$l$为半径的圆周运动。我们选取$O$点为支点，根据转动定理\footnote{
+    这个知识已经超出中学范围，作为了解即可。
+}，我们有 
+\begin{equation}
+    -mglsin\theta =ml^2\frac{d^2\theta }{dt^2 }.
+\end{equation}
+当小物体在其平衡点附近做微小振动时，我们近似地有$sin\theta\approx \theta $
+。因此，上式可以近似地写作
+\begin{equation}
+    ml\frac{d^2\theta }{dt^2 }+mgsin\theta\approx
+    ml\frac{d^2\theta }{dt^2 }+mg\theta=0,
+\end{equation}
+或是
+\begin{equation}
+    \frac{d^2\theta }{dt^2 }+\tilde{\omega}^2\theta =0.
+\end{equation}
+这里，$\tilde{\omega}=\sqrt{\frac{g}{l}}$称为单摆的振动频率。
+
+结合上面两个例子，我们看到，有许多振动体系的运动可以由
+下面的微分方程
+\begin{equation}
+    \frac{dy(t)}{dt^2}+\Omega^2y(t)=0
+\end{equation}
+来描述。这一方程称为简谐振动方程，容易验证，它的通解可以写作
+\begin{equation}
+    y(t)=Acos(\Omega t+\varphi_0).
+\end{equation}
+而相应的运动被称之为简谐振动。依照惯例，$\Omega$被称为 
+该体系的固有振动频率。它代表振子的相位在单位时间内的改变量。
+相应地，振子的振动周期定义作
+\begin{equation}
+    T=\frac{2\pi}{\Omega}.
+\end{equation}
+而$A$和$\varphi_0$则是两个需要通过振动的初始条件来确定的量，
+被分别称为振子的振幅和初相位。$A$一般取一个正数，而$\varphi_0$
+的取值范围则为$(0\leqslant \varphi_0\leqslant 2\pi)$。
+
+根据式(4.10)，我们可以得到弹簧振子和单摆的振动周期分别为
+\begin{equation}
+    T_{\text{弹簧}}=2\pi\sqrt{\frac{m}{k}},~~T_{\text{单摆}}=2\pi\sqrt{\frac{l}{g}}
+\end{equation}
+在中学阶段我们不要求上面这两个公式的推导，读者只需学会应用即可。
+\subsection{相和相差}
+\begin{definition}
+    两个频率相同的简谐振动，如果它们的振动步调一致，我们就说它们的相
+    是相同的，简称为同相；
+    多数情况下，两个简谐振动的步调并不一致，即它们的相不同，或者说它
+    们存在着相差；其中有一种特殊情形，即振动步调正好相反，这种情形叫做反相。
+\end{definition}
+
+\subsection{阻尼振动}
+简谐振动不考虑阻力，振动系统的机械能是守恒的。简谐振动是一种理想化的振动，
+一旦供给振动系统一定的能量来使它开始振动，由于机械能守恒，它就要以一定的
+振幅永不停息地振动下去。可是实际上振动系统不可避免地要受到摩擦和其他阻力，
+即受到阻尼的作用。
+\begin{definition}
+    振动系统克服阻尼作用做功，系统的机械能就要损耗，这样，机械能随着时间逐渐减少，
+    振动的振幅也逐渐减小。待到机械能耗尽之时，振动就停下来了。这种振幅逐
+    渐减小的振动叫做阻尼振动。
+\end{definition}
+
+振动系统受到的阻尼越大，振幅减小得越快，振动停下来也越快。阻尼过
+大将不能产生振动。阻尼越小，振幅减小得越慢。在阻尼很小时，在一段不太
+长的时间内看不出振幅有明显的减小，就可以把振动系统当作简谐振动来处理。
+
+\subsection{受迫振动和共振}
+\begin{definition}
+    物体在周期性外力作用下的振动叫做受迫振动。
+\end{definition}
+
+\begin{theorem}
+    物体做受迫振动的频率等于驱动力的频率，而跟物体的固有频率没有关系。
+\end{theorem}
+
+\begin{theorem}
+    当驱动力的频率跟物体的固有频率相等的时候，受迫振动的振幅最大，这
+    种现象叫做共振。
+\end{theorem}
+
+关于阻尼振动、受迫振动和共振相关的知识远远超出了中学物理的范畴，因此
+仅仅提及，不作为重点。
+
+\section{机械波}
+\subsection{机械波及其分类}
+\begin{definition}
+    机械振动在媒质中的传播叫做机械波。
+\end{definition}
+
+\begin{definition}
+    振动方向与波的传播方向垂直的波叫做横波；\\
+    振动方向与波的传播方向在同一直线上的波叫做纵波。
+\end{definition}
+
+\subsection{机械波的基本属性}
+\begin{definition}
+    沿着波的传播方向，两个相邻的同相质点间的距离，叫做波长，波长通常
+    用字母$\lambda$表示。
+\end{definition}
+
+在一个周期$T$内，振动传播的距离等于波长$\lambda$，那么振动传播的速率
+——波速$v$可以根据下面的式子求出：
+\begin{equation}
+    v=\frac{\lambda}{T}
+\end{equation}
+由于$T=1/f$，因此
+\begin{equation}
+    v=\lambda f
+\end{equation}
+这个关系，虽然我们是从机械波得到的，但是它对于今后将要学习的电磁波、光波
+也是适用的。机械波在媒质中传播的速率是由媒质本身的性质决定的，在不同媒质中传
+播的速率并不相同。
+\subsection{波的干涉}
+\subsubsection*{1、波的叠加}
+\begin{theorem}
+    几列波相遇时能够保持各自的状态而不互相干扰，这是波的一个基本性质;
+    两列波重叠区域里任何一点的总位移，都等于两列波分别引起的位移的向量和。
+\end{theorem}
+
+\subsubsection*{2、波的干涉}
+\begin{definition}
+    频率相同的两列波叠加，使某些区域的振动加强，集些区域的振动减弱，并
+    且振动加强和振动减弱的区域互相间隔，这种现象叫波的干涉，形成的图样叫
+    干涉图样。要得到稳定的干涉现象，观察到干涉
+    图样，两个波源必须是频率相同、相差恒定，这样的波源叫相干波源。
+\end{definition}
+
+\subsection{波的衍射}
+\begin{definition}
+    波绕过障碍物的现象，叫做波的衍射；能够发生明显的衍射现象的条件是：障
+    碍物或孔的尺寸跟波长相差不多。一切波都发生衍射，衍射也是波的特有现象。
+\end{definition}

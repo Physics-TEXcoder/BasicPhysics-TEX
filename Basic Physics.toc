@@ -1,0 +1,140 @@
+\contentsline {part}{I\hspace {1em}Classical Mechanics}{11}{part.1}%
+\contentsline {chapter}{\numberline {1}第一章\nobreakspace {}\nobreakspace {}力、向量与直线运动}{13}{chapter.1}%
+\contentsline {section}{\numberline {1.1}力}{13}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}力的概念}{13}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}重力}{13}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3}弹力}{13}{subsection.1.1.3}%
+\contentsline {subsection}{\numberline {1.1.4}胡克定律}{14}{subsection.1.1.4}%
+\contentsline {subsection}{\numberline {1.1.5}摩擦力}{14}{subsection.1.1.5}%
+\contentsline {subsection}{\numberline {1.1.6}牛顿第三定律}{14}{subsection.1.1.6}%
+\contentsline {subsection}{\numberline {1.1.7}力的合成与分解}{15}{subsection.1.1.7}%
+\contentsline {section}{\numberline {1.2}向量}{15}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}向量的加减规则}{15}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}向量与数的乘法}{16}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}使用空间直角坐标系简化向量的线性运算}{17}{subsection.1.2.3}%
+\contentsline {subsection}{\numberline {1.2.4}向量的投影}{18}{subsection.1.2.4}%
+\contentsline {subsection}{\numberline {1.2.5}新定义-点乘}{18}{subsection.1.2.5}%
+\contentsline {subsection}{\numberline {1.2.6}数量积的坐标表示}{19}{subsection.1.2.6}%
+\contentsline {subsection}{\numberline {1.2.7}新定义-叉乘}{20}{subsection.1.2.7}%
+\contentsline {subsection}{\numberline {1.2.8}向量积的坐标表示}{21}{subsection.1.2.8}%
+\contentsline {section}{\numberline {1.3}直线运动}{22}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}机械运动}{22}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}质点}{22}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}位置和位移}{22}{subsection.1.3.3}%
+\contentsline {subsection}{\numberline {1.3.4}匀速直线运动\nobreakspace {}速度}{22}{subsection.1.3.4}%
+\contentsline {subsection}{\numberline {1.3.5}匀速直线运动的图像}{23}{subsection.1.3.5}%
+\contentsline {subsection}{\numberline {1.3.6}变速直线运动}{23}{subsection.1.3.6}%
+\contentsline {subsection}{\numberline {1.3.7}匀变速直线运动\nobreakspace {}加速度}{24}{subsection.1.3.7}%
+\contentsline {subsection}{\numberline {1.3.8}匀变速直线运动的速度}{25}{subsection.1.3.8}%
+\contentsline {subsection}{\numberline {1.3.9}匀变速直线运动的位移}{25}{subsection.1.3.9}%
+\contentsline {subsection}{\numberline {1.3.10}自由落体运动}{26}{subsection.1.3.10}%
+\contentsline {subsection}{\numberline {1.3.11}竖直上抛运动}{27}{subsection.1.3.11}%
+\contentsline {chapter}{\numberline {2}第二章\nobreakspace {}\nobreakspace {}牛顿运动定律、曲线运动与万有引力定律}{29}{chapter.2}%
+\contentsline {section}{\numberline {2.1}牛顿运动定律}{29}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}牛顿第一定律}{29}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}牛顿第二定律}{29}{subsection.2.1.2}%
+\contentsline {subsubsection}{2、推论：力的独立作用原理}{30}{equation.2.1.4}%
+\contentsline {subsubsection}{3、超重和失重}{30}{equation.2.1.6}%
+\contentsline {section}{\numberline {2.2}曲线运动}{31}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}平抛物体的运动}{31}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}斜抛物体的运动}{31}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}匀速圆周运动}{32}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}万有引力定律}{33}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}开普勒的三个定律}{33}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}万有引力定律}{34}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}宇宙速度}{34}{subsection.2.3.3}%
+\contentsline {chapter}{\numberline {3}第三章\nobreakspace {}\nobreakspace {}机械能与动量}{37}{chapter.3}%
+\contentsline {section}{\numberline {3.1}机械能}{37}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}功}{37}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}动能定理}{38}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}势能(Potential)}{38}{subsection.3.1.3}%
+\contentsline {section}{\numberline {3.2}动量}{40}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}动量定理}{40}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}动量守恒定理}{40}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}碰撞}{41}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}碰撞的分类}{41}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}两刚性球弹性正碰后的速度}{41}{subsection.3.3.2}%
+\contentsline {chapter}{\numberline {4}第四章\nobreakspace {}\nobreakspace {}机械振动和机械波}{43}{chapter.4}%
+\contentsline {section}{\numberline {4.1}机械振动}{43}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}机械振动}{43}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}表征振动的物理量}{43}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}简谐振动}{43}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.4}相和相差}{44}{subsection.4.1.4}%
+\contentsline {subsection}{\numberline {4.1.5}阻尼振动}{45}{subsection.4.1.5}%
+\contentsline {subsection}{\numberline {4.1.6}受迫振动和共振}{45}{subsection.4.1.6}%
+\contentsline {section}{\numberline {4.2}机械波}{46}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}机械波及其分类}{46}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}机械波的基本属性}{46}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}波的干涉}{46}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}波的衍射}{47}{subsection.4.2.4}%
+\contentsline {part}{II\hspace {1em}Thermodynamics}{49}{part.2}%
+\contentsline {chapter}{\numberline {5}第五章\nobreakspace {}\nobreakspace {}热力学基础}{51}{chapter.5}%
+\contentsline {section}{\numberline {5.1}物质结构的基本图像}{51}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}物质分子处于不停顿的无规则运动状态}{51}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}分子之间存在相互作用}{51}{subsection.5.1.2}%
+\contentsline {section}{\numberline {5.2}温度与温标}{52}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}温度的概念}{52}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}温度相同的判定原则——热力学第零定律}{52}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}温度高低的数值标定——温标}{52}{subsection.5.2.3}%
+\contentsline {subsubsection}{(i)经验温标}{53}{definition.5.5}%
+\contentsline {subsubsection}{(ii)理想气体温标}{54}{equation.5.2.4}%
+\contentsline {subsubsection}{(iii)热力学温标}{56}{equation.5.2.23}%
+\contentsline {subsubsection}{(iv)国际实用温标}{57}{equation.5.2.23}%
+\contentsline {section}{\numberline {5.3}物体的内能}{57}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}分子的动能}{57}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}物体的内能}{57}{subsection.5.3.2}%
+\contentsline {section}{\numberline {5.4}热力学第一定律}{58}{section.5.4}%
+\contentsline {chapter}{\numberline {6}第六章\nobreakspace {}\nobreakspace {}气体、液体和固体}{59}{chapter.6}%
+\contentsline {section}{\numberline {6.1}理想气体状态方程}{59}{section.6.1}%
+\contentsline {section}{\numberline {6.2}固体和液体的性质}{60}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}物态简介}{60}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}固体的性质简介}{60}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}液体的性质简介}{62}{subsection.6.2.3}%
+\contentsline {part}{III\hspace {1em}Electromagnetism}{63}{part.3}%
+\contentsline {chapter}{\numberline {7}第七章\nobreakspace {}\nobreakspace {}静电场的基本规律}{65}{chapter.7}%
+\contentsline {section}{\numberline {7.1}电荷}{65}{section.7.1}%
+\contentsline {section}{\numberline {7.2}库仑定律}{66}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}库仑定律}{66}{subsection.7.2.1}%
+\contentsline {subsection}{\numberline {7.2.2}高斯对电荷的定量探索及高斯制}{66}{subsection.7.2.2}%
+\contentsline {subsection}{\numberline {7.2.3}国际单位制下电荷量的定义}{67}{subsection.7.2.3}%
+\contentsline {subsection}{\numberline {7.2.4}库仑定律的矢量形式}{68}{subsection.7.2.4}%
+\contentsline {subsection}{\numberline {7.2.5}叠加原理}{68}{subsection.7.2.5}%
+\contentsline {section}{\numberline {7.3}静电场}{68}{section.7.3}%
+\contentsline {subsection}{\numberline {7.3.1}电场强度}{68}{subsection.7.3.1}%
+\contentsline {subsection}{\numberline {7.3.2}电场线}{69}{subsection.7.3.2}%
+\contentsline {subsection}{\numberline {7.3.3}电势能与电势}{70}{subsection.7.3.3}%
+\contentsline {section}{\numberline {7.4}静电场中的导体}{71}{section.7.4}%
+\contentsline {subsection}{\numberline {7.4.1}导体和绝缘体}{71}{subsection.7.4.1}%
+\contentsline {subsection}{\numberline {7.4.2}静电场中的导体}{71}{subsection.7.4.2}%
+\contentsline {subsection}{\numberline {7.4.3}唯一性定理与静电场中普遍问题的解决}{72}{subsection.7.4.3}%
+\contentsline {section}{\numberline {7.5}电容器\nobreakspace {}电容}{73}{section.7.5}%
+\contentsline {subsection}{\numberline {7.5.1}电容器}{73}{subsection.7.5.1}%
+\contentsline {subsection}{\numberline {7.5.2}电容}{73}{subsection.7.5.2}%
+\contentsline {subsection}{\numberline {7.5.3}平行板电容器的电容}{74}{subsection.7.5.3}%
+\contentsline {chapter}{\numberline {8}第八章\nobreakspace {}\nobreakspace {}稳恒电流}{75}{chapter.8}%
+\contentsline {section}{\numberline {8.1}电流}{75}{section.8.1}%
+\contentsline {section}{\numberline {8.2}欧姆定律}{75}{section.8.2}%
+\contentsline {section}{\numberline {8.3}电阻定律\nobreakspace {}电阻率}{76}{section.8.3}%
+\contentsline {section}{\numberline {8.4}电功和电功率}{76}{section.8.4}%
+\contentsline {section}{\numberline {8.5}焦耳定律}{77}{section.8.5}%
+\contentsline {subsection}{\numberline {8.5.1}焦耳定律}{77}{subsection.8.5.1}%
+\contentsline {subsection}{\numberline {8.5.2}电功和电热的关系}{77}{subsection.8.5.2}%
+\contentsline {section}{\numberline {8.6}串联与并联}{77}{section.8.6}%
+\contentsline {subsection}{\numberline {8.6.1}电阻的串联}{77}{subsection.8.6.1}%
+\contentsline {subsection}{\numberline {8.6.2}电阻的并联}{78}{subsection.8.6.2}%
+\contentsline {section}{\numberline {8.7}电动势\nobreakspace {}闭合电路的欧姆定律}{78}{section.8.7}%
+\contentsline {subsection}{\numberline {8.7.1}电源与电动势}{78}{subsection.8.7.1}%
+\contentsline {subsection}{\numberline {8.7.2}闭合电路的欧姆定律}{78}{subsection.8.7.2}%
+\contentsline {chapter}{\numberline {9}第九章\nobreakspace {}\nobreakspace {}磁场与电磁感应}{79}{chapter.9}%
+\contentsline {section}{\numberline {9.1}磁场与电场是统一的}{79}{section.9.1}%
+\contentsline {section}{\numberline {9.2}磁场的作用力}{79}{section.9.2}%
+\contentsline {section}{\numberline {9.3}法拉第电磁感应定律}{80}{section.9.3}%
+\contentsline {section}{\numberline {9.4}应用}{80}{section.9.4}%
+\contentsline {subsection}{\numberline {9.4.1}直流电动机的反电动势}{80}{subsection.9.4.1}%
+\contentsline {subsection}{\numberline {9.4.2}自感}{80}{subsection.9.4.2}%
+\contentsline {chapter}{\numberline {10}第十章\nobreakspace {}\nobreakspace {}交流电和电磁波}{83}{chapter.10}%
+\contentsline {section}{\numberline {10.1}交流电}{83}{section.10.1}%
+\contentsline {subsection}{\numberline {10.1.1}交流电的产生}{83}{subsection.10.1.1}%
+\contentsline {subsection}{\numberline {10.1.2}交流电的有效值}{83}{subsection.10.1.2}%
+\contentsline {section}{\numberline {10.2}电磁波}{84}{section.10.2}%
+\contentsfinish 

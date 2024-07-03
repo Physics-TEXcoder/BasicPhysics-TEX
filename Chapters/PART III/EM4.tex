@@ -1,0 +1,47 @@
+\section{交流电}
+\subsection{交流电的产生}
+我们以简化的交流发电机为例，记发电机线圈处于匀强磁场，并且切割磁感线
+的边长为$l$，旋转角速度为$\omega$，在旋转过程中，交流发电机线圈的磁通量为
+\begin{equation}
+    \phi=Bl\frac{2v}{\omega }\cos\omega t
+\end{equation}
+因此 
+\begin{equation}
+    \mathcal{E}=-\frac{d\phi}{dt}=
+    2Blv\sin\omega t
+\end{equation}
+这就是交流电的产生原理。
+\subsection{交流电的有效值}
+所谓交流电的有效值，即电流或者电压的二次方对于时间的平均值的二次根值。
+也就是说
+\begin{equation}
+    U_{\text{有效}}=\sqrt{\frac{\sum U^2\Delta t}{T}},~~
+    I_{\text{有效}}=\sqrt{\frac{\sum I^2\Delta t}{T}}
+\end{equation}
+从定义可以看出，有效值的意义是，可以用来求等效的热功，比如 
+\begin{equation}
+    W=\frac{\sum U^2\Delta t}{R}=\frac{U_{\text{有效}}^2T}{R}
+    =\sum I^2R\Delta t=I_{\text{有效}}^2RT
+\end{equation}
+
+求算交流电的有效值需要用到积分，因此我们不再写出计算过程，而是直接给出
+结果：
+\begin{equation}
+    U_{\text{有效}}=\frac{U_{\text{最大}}}{\sqrt{2}},~~
+    I_{\text{有效}}=\frac{I_{\text{最大}}}{\sqrt{2}}
+\end{equation}
+显然对于纯电阻电流，电压和电流的有效值之间有关系 
+\begin{equation}
+    U_{\text{有效}}=I_{\text{有效}}R
+\end{equation}
+因此 
+\begin{equation}
+    U_{\text{有效}}I_{\text{有效}}=\frac{U_{\text{有效}}^2}{R}
+    =I_{\text{有效}}^2R
+\end{equation}
+也就是说，$U_{\text{有效}}I_{\text{有效}}$也可以用来表征交流电的有效功率。
+\section{电磁波}
+电磁波在中学阶段没什么好说的。麦克斯韦总结出四个麦克斯韦方程后，将其联立可以
+得到磁场或者电场关于时间和位置的二阶偏微分方程，求解它就会是一个周期性传播的
+“电磁波”，但这远远超出了中学物理的范围，因此我们不再介绍。这一部分，对于中学生
+来说，只需要读一读课本即可。

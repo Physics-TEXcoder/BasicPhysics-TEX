@@ -1,0 +1,281 @@
+\section{牛顿运动定律}
+\subsection{牛顿第一定律}
+\begin{definition}
+    一切物体总保持匀速直线运动状态或静止状态，直到有外力迫使它
+    改变这种状态为止。
+\end{definition}
+
+这就是牛顿第一定律，物体的这种保持原来的匀速直线运动状态或静止状
+态的性质叫做惯性，牛顿第一定律又叫做惯性定律。
+
+实验指出，力是使物体产生加速度的原因，或者说，力是改变物体运动状态
+的原因。物体运动状态的改变，不但跟物体所受的外力有关，而且跟物体本身的性
+质有关。质量越大，物体的惯性就越大，物体的运动状态就越不容易改变。
+质量是物体惯性大小的量度。
+\subsection{牛顿第二定律}
+\subsubsection*{1、牛顿第二定律的内容}
+\begin{definition}
+    实验指出，物体的加速度跟物体所受的外力成正比，跟物体的质量成反比，加速度的
+    方向和外力的方向相同。这就是牛顿第二定律。
+\end{definition}
+
+该定律可以写作
+\begin{equation}
+    a\propto \frac{F}{m}\quad\text{或者}\quad F\propto ma
+\end{equation}
+亦或者$F=kma$，其中$k$是比例常数。
+
+实际上，我们在之前只是定义了力这个概念，而并没有具体讲它的度量。
+方便起见，在国际单位制下，我们实际上令比例系数$k=1$，然后定义1牛顿的力为可以使得
+1kg的物体产生1$m/s^2$的加速度，这就是牛顿单位的由来。有了这个定义，
+我们就可以定量地描述物体间相互作用的大小了。根据这个规定，我们有 
+\begin{equation}
+    1N=1kg\cdot m/s^2
+\end{equation}
+此时牛顿第二定律的公式简化为 
+\begin{equation}
+    F=ma
+\end{equation}
+实际上，由于力$F$和加速度$a$都是矢量，结合力的方向和加速度的方向相同的
+规律，我们可以将牛顿第二定律写作向量式，即 
+\begin{equation}
+    \boldsymbol{F}=m\boldsymbol{a}
+\end{equation}
+加粗代表其为向量而非标量。
+
+注意，等式$ F = kma $中的$ k $并不是在任何情况下都等于 1，例如$ m $的单位用
+克，$a$的单位用$cm/s^2$，而力的单位用牛顿时，$k$就不等于1。
+
+\subsubsection{2、推论：力的独立作用原理}
+当几个力同时作用于物体时，牛顿第二定律的公式可以写作 
+\begin{equation}
+    \boldsymbol{F}_{\text{合外}}=\boldsymbol{F_1}+\boldsymbol{F_2}+\cdots=
+    m\boldsymbol{a}
+\end{equation}
+即 
+\begin{equation}
+    \boldsymbol{a}=\frac{\boldsymbol{F_1}}{m}+\frac{\boldsymbol{F_2}}{m}
+    +\cdots
+\end{equation}
+也就是说，物体实际的加速度是几个分力独立作用于该物体时产生的几个加速度的
+向量和。这就是力的独立作用原理。
+
+容易推广得到：物体实际的运动情况是几个分力独立作用于该物体时产生的几个
+运动情况的向量和。运动情况包括位移、速度和加速度。当然，很容易知道，
+位移、速度、加速度都是矢量，它们的合成都满足平行四边形法则。
+\subsubsection{3、超重和失重}
+当物体存在一个向上的加速度，根据牛顿第二定律，我们有 
+\begin{equation}
+    N-mg=ma
+\end{equation}
+其中$N$为支持物对物体的支持力。上式可表为
+\begin{equation}
+    N=mg+ma>mg
+\end{equation}
+这种现象叫做超重现象，即
+\begin{definition}
+    当物体存在向上的加速度时，它对支持物的压力(或对悬挂物的拉力)大
+    于物体的重量的现象，叫做超重现象。
+\end{definition}
+
+当物体存在一个向下的加速度，根据牛顿第二定律，我们有 
+\begin{equation}
+    mg-N=ma
+\end{equation}
+其中$N$为支持物对物体的支持力。上式可表为
+\begin{equation}
+    N=mg-ma<mg
+\end{equation}
+这种现象叫做失重现象，即
+\begin{definition}
+    当物体存在向下的加速度时，它对支持物的压力(或对悬挂物的拉力)小于物
+    体的重量的现象，叫做失重现象。
+\end{definition}
+\section{曲线运动}
+\subsection{平抛物体的运动}
+平抛运动是一个加速度与速度方向不相同的运动，根据牛顿第二定律，我们有 
+\begin{equation}
+    m\boldsymbol{g}=m\boldsymbol{a}
+\end{equation}
+为了定量分析它，我们需要用到向量有关的知识。以抛出点建立平面直角坐标系，
+初速度方向为$x$轴，重力加速度方向为$y$轴，那么牛顿第二定律可以写作
+\begin{equation}
+    g\boldsymbol{j}=a_y\boldsymbol{j}+a_x\boldsymbol{i}
+\end{equation}
+其中$\boldsymbol{j}$为$y$方向的单位方向向量，$\boldsymbol{x}$为$x$
+方向的单位方向向量。上式表明：
+\begin{equation}
+    a_y=g,~~a_x=0
+\end{equation}
+现在我们将运动分解为$x,y$方向的分运动的叠加。容易论证，在$y$方向的分运动表现为
+初速度为零的以$g$为加速度的匀加速直线运动，而在$x$方向的分运动为一
+初速度为$v_0$的匀速直线运动。由此可以得到 
+\begin{equation}
+    y=\frac{1}{2}gt^2,~~x=v_0t
+\end{equation}
+总的运动为
+\begin{equation}
+    \boldsymbol{r}=x\boldsymbol{i}+y\boldsymbol{j}
+    =v_0t\boldsymbol{i}+\frac{1}{2}gt^2\boldsymbol{j}
+\end{equation}
+这就是关于平抛运动的分析。
+\subsection{斜抛物体的运动}
+斜抛物体的运动的分析原理和上面的平抛运动完全相同，只不过计算上稍微复杂
+一点，因此我们不再赘述，因为我们关心的不是广泛的应用，而是普适的原理。
+正如本书封面上的话：在物理学的研究中，主要是采用简约主义 (Reductionism) 
+的做法。
+
+当然，对于中学生读者来说，斜抛运动的研究同样重要，因为它们关乎考试成绩。
+值得注意的是，务必要理解普适的原理，而不是只追求遍历所有的情况并记住。
+\subsection{匀速圆周运动}
+\subsubsection*{1、匀速圆周运动的基础概念}
+\begin{definition}
+    质点沿圆周运动，如果在相等的时间里通过的圆弧长度都相等，这种运动
+    就叫做匀速圆周运动。
+\end{definition}
+
+质点做匀速圆周运动的时候，它通过的弧长$\Delta s$与所用的时间$\Delta t$
+之比是个定值，这个比值就是匀速圆周运动的速率，即速度的大小
+\begin{equation}
+    v=\frac{\Delta s}{\Delta t}=const
+\end{equation}
+可以看出，$v$的数值等于质点在单位时间内通过的弧长。
+
+质点做匀速圆周运动时，运动一周所用的时间叫做周期。如果质点沿半径
+为$r$的圆周做匀速圆周运动，记周期是$T$，则周期$T$、半径$r$以及
+速率$v$之间的关系是
+\begin{equation}
+    T=\frac{2\pi r}{v}
+\end{equation}
+
+质点做圆周运动的快慢也可以用角速度来描述。在匀速圆周运动的情况下，在任何
+相等的时间里质点通过的圆弧长度都相等，连接质点和圆心的半径转过的角度也都相等，
+即半径转过的角度$\Delta \phi$跟所用的时间$\Delta t$之比是个定值。我们把这
+个比值叫做匀速圆周运动的角速度，角速度的符号是$\omega$，写成公式就是
+\begin{equation}
+    \omega=\frac{\Delta \phi}{\Delta t}
+\end{equation}
+可以看出，角速度的数值等于在单位时间里半径转过的角度。显然地，
+角速度与周期的关系为
+\begin{equation}
+    \omega =\frac{2\pi}{T}
+\end{equation}
+
+另外，我们还有 
+\begin{equation}
+    v=\frac{\Delta s}{\Delta t}=r\frac{\Delta \phi}{\Delta t}=r\omega
+\end{equation}
+这就是圆周运动的速度和角速度的关系。
+
+\subsubsection*{2、向心加速度}
+在质点进行匀速圆周运动时，其速度变化如下图2.1所示。可以看到
+\begin{equation}
+    \Delta v=v\Delta \phi=v\omega \Delta t~~(\Delta \phi\to 0)
+\end{equation}
+因此 
+\begin{equation}
+    a=\frac{\Delta v}{\Delta t}=\omega v~~(\Delta \phi\to 0)
+\end{equation}
+结合之前速度和角速度的关系，我们可以得到 
+\begin{equation}
+    a=\omega v=\omega^2r=\frac{v^2}{r}
+\end{equation}
+显然这个加速度的方向是沿径向向内的，即指向圆心的。
+\begin{figure}[htbp]
+    \centering
+    \begin{tikzpicture}[>=latex, scale=.8]
+    \draw [very thick](0,0)  circle [radius=3];
+    
+    \node at (.25,-.25){$O$};
+    \draw (0,0)--(90:3) node [above]{$A$};
+    \draw (0,0)--(120:3) node [below]{$B$};
+    \draw [fill=black] (90:3) circle (2pt) ;
+    \draw [fill=black] (120:3) circle (2pt) ;
+    
+    \draw (0,0+1) arc (90:120:1) node [above]{$\Delta \phi$};
+    \draw [<-](-2,3)node [above]{$v_A$}--(0,3);
+    \draw [->](120:3)--+(120+90:2)node [above]{$v_B$};
+    \node at (0,-3.5){甲};
+    \end{tikzpicture}\qquad 
+    \begin{tikzpicture}[>=latex, scale=1.5]
+    \draw [->,very thick](0,0)--(180:2)node [above]{$v_A$};
+    \draw [->,very thick](0,0)--(180+30:2)node [below]{$v_B$};
+    \draw [->,very thick](180:2)--node [left]{$\Delta v$}(180+30:2);
+    \draw (0-1,0) arc (180:180+30:1) node [above]{$\Delta \phi$};
+    
+    \node at (-1,-3){乙};
+    
+    \end{tikzpicture}
+    \caption{}
+\end{figure}
+
+在匀速圆周运动中，由于$r,v,\omega$是不变的，所以向心加速度的大小不
+变；但是向心加速度的方向却时刻在改变，在圆周上不同点处，向心加速度的
+方向不同，沿着该点的半径指向圆心。而加速度是既有大小又有方向的矢量，所
+以匀速圆周运动是一种变加速运动。
+\subsubsection*{3、向心力}
+我们知道，向心加速度的方向是指向圆心的，加速度的方向跟力的方向又
+总是一致的，所以使物体产生向心加速度的力的方向也一定是指向圆心的。因
+此，习惯上常把使物体产生向心加速度的力叫做向心力。
+\section{万有引力定律}
+\subsection{开普勒的三个定律}
+开普勒通过实验数据得到了这样三条定律：
+\begin{theorem}
+    开普勒第一定律：所有的行星分别在大小不同的椭圆轨道上围绕太阳运动，太
+    阳是在这些椭圆的一个焦点上。\\
+    开普勒第二定律：太阳和行星的联线在相等的时间内扫过相等的面积。\\
+    开普勒第三定律：所有行星的椭圆轨道的半长轴的三次方跟公转周期的平方的比值都相
+    等，即$R^3/T^2=K$，比值$K$是一个与行星无关的常量。
+\end{theorem}
+
+\subsection{万有引力定律}
+万有引力叫做$Universal\quad Force$，也可以翻译为“普适力”。
+
+在《Conversations\quad On\quad The\quad Dark\quad Secrets\quad Of\quad Physics》
+中提到，万有引力定律的灵感来源于开普勒三定律中的$K=\frac{R^3}{T^2}$。
+\begin{equation}
+    K=\frac{R^3}{T^2}=\frac{R^3}{4\pi^2} \frac{(2\pi)^2}{T^2}=\frac{R}{4\pi^2}\left(\omega R\right)^2
+    =\frac{R}{4\pi^2}v_{\theta}^2
+\end{equation}
+简单起见，让我们考虑以圆轨道运行的星体，那么
+\begin{equation}
+    K=\frac{R}{4\pi^2}v_{\theta}^2=\frac{R}{4\pi^2}v^2
+    =\frac{R}{4\pi^2} \frac{R}{m_e}\left(m_e\frac{v^2}{R}\right)
+    =\frac{R^2}{4\pi^2m_e}F
+    \Rightarrow F=\frac{4\pi^2m_eK}{R^2}
+\end{equation}
+$F$为向心力，也看作太阳对地球的引力和地球对太阳的引力。那么根据对称性，
+$F$还与太阳的质量$M_s$成正比，那么$F$的表达式可以写为
+\begin{equation}
+    F=\frac{4\pi^2m_eCM_s}{R^2}=\frac{GM_sm_e}{R^2}
+\end{equation}
+G为万有引力常量，于1789年由Henry$\cdot$Cavendis测得，为
+\begin{equation}
+    G=6.67259\times 10^{-8}\frac{(cm)^3}{g\cdot s^2}
+\end{equation}      
+这就是万有引力定律。
+\subsection{宇宙速度}
+\subsubsection*{1、第一宇宙速度}
+当卫星围绕地球做半径为$r$的圆周运动时：
+\begin{equation}
+    G\frac{Mm}{r^2}=m\frac{v^2}{r}\Rightarrow v=\sqrt{\frac{GM}{r}}
+\end{equation}
+
+对于靠近地面运转的卫星，$r\approx R_{\text{地}}$，此时
+\begin{equation}
+    v=\sqrt{\frac{GM}{R_{\text{地}}}}=7.9km/s
+\end{equation}
+这就是人造地球卫星在地面附近环绕地球做匀速圆周运动必须具有的速度，叫做第一
+宇宙速度，也叫环绕速度。
+\subsubsection*{2、第二宇宙速度}
+如果人造地球卫星进入轨道的水平速度大于 7.9km/s，而小于 11.2km/s，
+它绕地球运动的轨迹就不是圆，而是椭圆。当物体的速度等于或大于
+11.2km/s 的时候，物体就可以挣脱地球引力的束缚，成为绕太阳运动的人造行
+星，或飞到其他行星上去，所以 11.2km/s 这个速度叫做第二宇宙速度，也叫
+脱离速度。
+\subsubsection*{3、第三宇宙速度}
+达到第二宇宙速度的物体还受着太阳引力的束缚，要想使物体挣脱太阳的
+束缚，飞到太阳系以外的宇宙空间去，必须使它的速度等于或大于 16.7km/s，
+这个速度叫做 第三字宙速度，也叫逃逸速度。
+
+第二和第三宇宙速度的导出需要用到后续的知识，在高中阶段往往不做要求。
